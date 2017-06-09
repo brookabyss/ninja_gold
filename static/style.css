@@ -1,0 +1,53 @@
+/**{
+  outline: dashed 2px red;
+}*/
+.wrapper{
+  width: 1000px;
+  height: 100%;
+  overflow: scroll;
+}
+
+.red{
+  color: red;
+}
+.green{
+  color: green;
+}
+.box{
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  border: solid 2px black;
+}
+.activities{
+  width: 800px;
+  height: 150px;
+  overflow: scroll;
+  border: solid 2px black;
+  border-radius: 10px;
+  padding: 10px;
+
+}
+button{
+  display: block;
+  margin: 0 auto;
+}
+.box h2,p{
+  text-align: center;
+}
+.p_total{
+  width: 400px;
+  margin-left: 35px;
+
+}
+span{
+  width: 100px;
+  height: 80px;
+  border: solid 2px black;
+  border-radius: 3px;
+  padding: 2px 55px 2px 40px;
+}
+.activities p{
+  text-align: left;
+
+}
